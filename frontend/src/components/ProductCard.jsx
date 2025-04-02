@@ -21,7 +21,7 @@ import {
 } from "@chakra-ui/react";
 import { EditIcon, DeleteIcon } from "@chakra-ui/icons";
 import React from "react";
-import { useProductStore } from "../store/product";
+import { useProductStore } from "../Store/product.js";
 import { useState } from "react";
 
 const ProductCard = ({ product }) => {
